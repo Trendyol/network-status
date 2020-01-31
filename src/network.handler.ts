@@ -1,0 +1,3 @@
+import { handle } from ".";
+
+handle();
