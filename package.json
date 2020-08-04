@@ -1,7 +1,7 @@
 {
   "private": false,
-  "name": "@trendyol/network-status",
-  "version": "1.0.0",
+  "name": "@trendyol-js/network-status",
+  "version": "1.0.1",
   "description": "Helper functions to boost web performance",
   "repository": "git://github.com/trendyol/network-status.git",
   "main": "dist/index.js",

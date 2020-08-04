@@ -3,12 +3,12 @@ Learn device's network status.
 
 ### Install
 ```
-npm install @trendyol/network-status
+npm install @trendyol-js/network-status
 ```
 
 #### Use In Your Application
 ```
-import { handle } from "@trendyol/network-status"
+import { handle } from "@trendyol-js/network-status"
 ```
 
 #### Bundle It and Use As a Script
@@ -41,7 +41,7 @@ Network module contains helper functions to detect, store, read device's network
 ##### Handle Function
 
 ```
-import { handle } from "@trendyol/network-status"
+import { handle } from "@trendyol-js/network-status"
 
 handle();
 ```
@@ -51,7 +51,7 @@ Detects the device's network status and sets it as `network-status` cookie.
 ##### NetworkStatus Function
 
 ```
-import { networkStatus } from "@trendyol/network-status"
+import { networkStatus } from "@trendyol-js/network-status"
 
 const status = networkStatus();
 ```
@@ -61,7 +61,7 @@ Returns the device's network status.
 ##### GetNetworkStatusCookie Function
 
 ```
-import { getNetworkStatusCookie } from "@trendyol/network-status"
+import { getNetworkStatusCookie } from "@trendyol-js/network-status"
 
 const status = getNetworkStatusCookie();
 ```

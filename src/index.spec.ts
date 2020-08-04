@@ -4,7 +4,7 @@ describe("Network", () => {
   describe("networkStatus", () => {
     it("should return none", () => {
       // Arrange
-      (global as any).navigator.connection = {}
+      (window as any).navigator.connection = {}
 
       // Act
       const result = networkStatus();
@@ -15,7 +15,7 @@ describe("Network", () => {
 
     it("should return effectiveType", () => {
       // Arrange
-      (global as any).navigator.connection = {
+      (window as any).navigator.connection = {
         effectiveType: Connection["3g"]
       }
 
